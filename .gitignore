@@ -172,3 +172,25 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Streamlit app cache and logs
+.streamlit/
+streamlit_app/.streamlit/
+*.log
+
+# Docker socket and override config
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Local Ollama models and runtime data
+ollama/models/
+ollama/.ollama/
+
+# Local offline package storage
+offline_pkgs/
+wheels/
+
+# Local logs or outputs
+logs/
+output/
